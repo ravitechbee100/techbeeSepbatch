@@ -1,0 +1,18 @@
+Shopping Cart User Stories
+
+
+1) As a user, I want to be able to see a list of products I've added 
+to my cart with a total so that I can have an idea of how much I will be spending on
+my purchase after tax and shipping costs.
+
+2) As a user, I want to be able to increase the quantity of an already added product 
+to my cart so that I can take advantage of it's sale price.
+
+3) As a user, I want to be able to delete an item I added to my cart so that I can reduce 
+the total of my purchase.
+
+4) As a user, I want to be able to enter a promo code that I received so that I can get a 
+discount on my order.
+
+5) As a user, I want to be able to log in to my member account at checkout so that I 
+don't have to manually type in all of my customer info. 
