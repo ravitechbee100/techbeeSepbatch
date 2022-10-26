@@ -16,7 +16,7 @@ public class EbayHomePage
 	
 	public static void main(String[] args) throws IOException 
 	{
-		// Creates a file for iPhone results to be saved 
+	// Creates a file for iPhone results to be saved 
         FileWriter fw = new FileWriter("src/test/java/SeleniumAutomation/AutomationAssignment/eBay_iPhone_Results.txt", true);
         // URL for eBay
         String url = "https://www.ebay.com/";
@@ -53,11 +53,9 @@ public class EbayHomePage
         {
         	// Prints product titles
         	String title = iphoneTitle.get(i).getText();
-        	//System.out.println(title);
         	out.println(title);
         	// Prints product prices
         	String price = iphonePrice.get(i).getText();
-        	//System.out.println(price + "\n");
         	out.println("- " + price + "\n");
         }
         // Closes file
