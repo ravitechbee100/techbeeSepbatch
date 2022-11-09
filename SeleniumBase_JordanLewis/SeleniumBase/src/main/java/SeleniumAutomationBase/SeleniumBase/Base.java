@@ -51,7 +51,7 @@ public class Base
     
 	public WebDriver browserInitialization(String browser) throws InterruptedException
 	{
-		WebDriverManager.chromedriver().create();
+		
 		if(browser.equals(config.browserName()))
 		{
 			driver = WebDriverManager.chromedriver().create();
